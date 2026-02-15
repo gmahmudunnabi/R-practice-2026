@@ -1,4 +1,3 @@
-
 #reading the data into the Rstudio----------
 
 dat <- read.csv(file = "data/inflammation-01.csv", header = F)
@@ -130,4 +129,5 @@ plot(min_day_inflammation)
 
 sd_day_inflammation <- apply(dat, 2, sd)
 plot(sd_day_inflammation)
+
 
